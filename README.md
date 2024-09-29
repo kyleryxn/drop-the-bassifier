@@ -1,6 +1,7 @@
 # Drop the Bassifier
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkyleryxn%2Fdrop-the-bassifier&count_bg=%231DB954&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ### Authors
 [Hillel Gersten](https://github.com/hillelg1), [Johnathan Sanchez](https://github.com/johnathansanchez16), 

@@ -8,8 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased] - 2024-09-29
 
 ### Added
-- The million song dataset was added to the project
-- README updated to reflect new changes
+- Million song dataset added
+- `static/css/styles.css` and `static/css/styles.min.css`
+
+### Changed
+- Updated `index.html` to include link to `styles.min.css` stylesheet
+- README updated to reflect new dataset addition
 
 ## [Unreleased] - 2024-09-28
 

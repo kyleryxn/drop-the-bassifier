@@ -112,6 +112,13 @@ We would like to thank the following organizations and people:
 Kaggle's community-driven datasets and competitions were instrumental in shaping the data analysis and machine 
 learning aspects of this project.
 
+### 3. [Million Song Dataset](http://millionsongdataset.com/)
+*Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
+The Million Song Dataset. In Proceedings of the 12th International Society
+for Music Information Retrieval Conference (ISMIR 2011), 2011.*
+
+- For going to all the trouble of provide a free, public dataset perfectly suited for our project's needs.
+
 ### 3. [Spotify](https://open.spotify.com/)
 - Without Spotify's wealth of music metadata, this project wouldn't have been able to explore genre classification with 
 such depth and accuracy.

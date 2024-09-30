@@ -20,6 +20,7 @@ track ID or its audio features) and classify it into a predefined set of genres 
 ## Datasets
 
 ### 1. [Classic Hits Dataset](https://www.kaggle.com/datasets/thebumpkin/10400-classic-hits-10-genres-1923-to-2023)
+*Provided by Kyle*
 
 - The dataset is a comprehensive collection of 15,150 classic hits from 3,083 artists, spanning a century of music 
 history from 1923 to 2023. This diverse dataset is divided into 19 distinct genres, showcasing the evolution of popular 
@@ -27,6 +28,7 @@ music across different eras and styles. Each track in the dataset is enriched wi
 detailed insights into the acoustic properties, rhythm, tempo, and other musical characteristics.
 
 ### 2. [Million Song Dataset](http://millionsongdataset.com/)
+*Provided by Hillel*
 
 - The Million Song Dataset is a freely-available collection of audio features and metadata for a million contemporary 
 popular music tracks. The dataset does not include any audio, only the derived features. Its purposes are to encourage 

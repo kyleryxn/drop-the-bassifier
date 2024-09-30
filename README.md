@@ -26,6 +26,12 @@ history from 1923 to 2023. This diverse dataset is divided into 19 distinct genr
 music across different eras and styles. Each track in the dataset is enriched with Spotify audio features, offering 
 detailed insights into the acoustic properties, rhythm, tempo, and other musical characteristics.
 
+### 2. [Million Song Dataset](http://millionsongdataset.com/)
+
+- The Million Song Dataset is a freely-available collection of audio features and metadata for a million contemporary 
+popular music tracks. The dataset does not include any audio, only the derived features. Its purposes are to encourage 
+research on algorithms that scale to commercial sizes; to provide a reference dataset for evaluating research; as a 
+shortcut alternative to creating a large dataset with APIs.
 
 ## Challenges & Solutions
 

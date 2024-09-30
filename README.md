@@ -119,7 +119,7 @@ learning aspects of this project.
 The Million Song Dataset. In Proceedings of the 12th International Society
 for Music Information Retrieval Conference (ISMIR 2011), 2011.*
 
-- For going to all the trouble of provide a free, public dataset perfectly suited for our project's needs.
+- For going to the trouble of providing a free, public dataset perfectly suited for our project's needs.
 
 ### 3. [Spotify](https://open.spotify.com/)
 - Without Spotify's wealth of music metadata, this project wouldn't have been able to explore genre classification with 

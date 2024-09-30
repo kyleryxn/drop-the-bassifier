@@ -10,4 +10,4 @@ All tasks for developing the project will be documented in this file.
 
 ## In Progress
 
-## Done ✓
+## Done

@@ -5,7 +5,7 @@ All tasks for developing the project will be documented in this file.
 ## To Do
 
 ### Roles
-- [ ] Define roles for team
+- [ ] Define roles for team members
 - [ ] Assign tasks for each person
 
 ### Data Preparation

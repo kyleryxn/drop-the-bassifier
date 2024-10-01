@@ -15,3 +15,6 @@ All tasks for developing the project will be documented in this file.
 - [ ] Perform exploratory data analysis (EDA) on datasets.
 
 ## Done
+
+### Data Collection
+- [x] Datasets gathered

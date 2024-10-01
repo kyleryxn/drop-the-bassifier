@@ -46,7 +46,8 @@ just that.
 
 | Challenge   | Solution    |
 |-------------|-------------|
-| Challenge 1 | Solution 1  |
+| inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better  |
+
 
 ## Risks
 

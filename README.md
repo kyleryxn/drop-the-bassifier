@@ -46,8 +46,10 @@ just that.
 
 | Challenge   | Solution    |
 |-------------|-------------|
-| inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better  |
-
+| Inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better  |
+| Finding patterns in different music | Converting audio files into spectrographs can give us frequency and amplitude over time|
+| Accuracy of our model | After developing the model we can use songs not included in the training set to train our model |
+ 
 
 ## Risks
 

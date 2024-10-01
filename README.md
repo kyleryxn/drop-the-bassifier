@@ -35,6 +35,13 @@ popular music tracks. The dataset does not include any audio, only the derived f
 research on algorithms that scale to commercial sizes; to provide a reference dataset for evaluating research; as a 
 shortcut alternative to creating a large dataset with APIs.
 
+### 3. [GTZAN](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
+*Provided by Johnathan*
+
+- Music. Experts have been trying for a long time to understand sound and what differenciates one song from another. 
+How to visualize sound. What makes a tone different from another. This data hopefully can give the opportunity to do 
+just that.
+
 ## Challenges & Solutions
 
 | Challenge   | Solution    |
@@ -77,11 +84,11 @@ in the predictions
 
 ## Resources
 
-| Member    | Resource |
-|-----------|----------|
-| Hillel    |          |
-| Johnathan |          |
-| Kyle      |          |
+| Member    | Resource                                                                                                     |
+|-----------|--------------------------------------------------------------------------------------------------------------|
+| Hillel    |                                                                                                              |
+| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn) |
+| Kyle      |                                                                                                              |
 
 ## Implementation
 

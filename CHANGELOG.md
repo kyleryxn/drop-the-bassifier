@@ -8,7 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased] - 2024-09-29
 
 ### Added
-- Million song dataset added
+- GTZAN dataset
+
+### Changed
+- README updated to reflect new dataset addition
+
+## [Unreleased] - 2024-09-29
+
+### Added
+- Million song dataset
 - `static/css/styles.css` and `static/css/styles.min.css`
 
 ### Changed

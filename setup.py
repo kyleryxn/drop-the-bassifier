@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
 setup(
     name='drop-the-bassifier',
     version='0.1.0',
-    description='A Flask project',
+    description='Genre classification machine learning application',
     author='Hillel Gersten, Kyle Schoenhardt, Johnathan Sanchez',
     url='https://github.com/kyleryxn/drop-the-bassifier',
     packages=find_packages(),

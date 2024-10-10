@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cleaned million song dataset
 
 ## Changed
-- README updated with new project resource
+- README updated with new project resource and tech stack
 - `setup.py` updated with setup code
 
 ## [Unreleased] - 2024-09-30

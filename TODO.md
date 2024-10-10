@@ -8,10 +8,16 @@ All tasks for developing the project will be documented in this file.
 - [ ] Define roles for team members
 - [ ] Assign tasks for each person
 
+## In Progress
+
 ### Data Preparation
 - [ ] Clean the data (handle missing values, normalize features).
 - [ ] Perform exploratory data analysis (EDA) on datasets.
-
-## In Progress
+  - [ ] Classic hits dataset
+  - [ ] Million song dataset
+  - [ ] GTZAN dataset
 
 ## Done
+
+### Data Collection
+- [x] Datasets gathered

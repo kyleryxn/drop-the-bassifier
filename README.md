@@ -35,11 +35,21 @@ popular music tracks. The dataset does not include any audio, only the derived f
 research on algorithms that scale to commercial sizes; to provide a reference dataset for evaluating research; as a 
 shortcut alternative to creating a large dataset with APIs.
 
+### 3. [GTZAN](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
+*Provided by Johnathan*
+
+- Music. Experts have been trying for a long time to understand sound and what differenciates one song from another. 
+How to visualize sound. What makes a tone different from another. This data hopefully can give the opportunity to do 
+just that.
+
 ## Challenges & Solutions
 
 | Challenge   | Solution    |
 |-------------|-------------|
-| Challenge 1 | Solution 1  |
+| Inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better  |
+| Finding patterns in different music | Converting audio files into spectrographs can give us frequency and amplitude over time|
+| Accuracy of our model | After developing the model we can use songs not included in the training set to train our model |
+ 
 
 ## Risks
 
@@ -77,11 +87,11 @@ in the predictions
 
 ## Resources
 
-| Member    | Resource |
-|-----------|----------|
-| Hillel    |          |
-| Johnathan |          |
-| Kyle      |          |
+| Member    | Resource                                                                                                     |
+|-----------|--------------------------------------------------------------------------------------------------------------|
+| Hillel    |                                                                                                              |
+| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn) |
+| Kyle      |                                                                                                              |
 
 ## Implementation
 
@@ -119,7 +129,7 @@ learning aspects of this project.
 The Million Song Dataset. In Proceedings of the 12th International Society
 for Music Information Retrieval Conference (ISMIR 2011), 2011.*
 
-- For going to all the trouble of provide a free, public dataset perfectly suited for our project's needs.
+- For going to the trouble of providing a free, public dataset perfectly suited for our project's needs.
 
 ### 3. [Spotify](https://open.spotify.com/)
 - Without Spotify's wealth of music metadata, this project wouldn't have been able to explore genre classification with 

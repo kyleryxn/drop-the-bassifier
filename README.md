@@ -44,11 +44,11 @@ just that.
 
 ## Challenges & Solutions
 
-| Challenge   | Solution    |
-|-------------|-------------|
-| Inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better  |
-| Finding patterns in different music | Converting audio files into spectrographs can give us frequency and amplitude over time|
-| Accuracy of our model | After developing the model we can use songs not included in the training set to train our model |
+| Challenge                               | Solution                                                                                        |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------|
+| Inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better                    |
+| Finding patterns in different music     | Converting audio files into spectrographs can give us frequency and amplitude over time         |
+| Accuracy of our model                   | After developing the model we can use songs not included in the training set to train our model |
  
 
 ## Risks
@@ -87,11 +87,11 @@ in the predictions
 
 ## Resources
 
-| Member    | Resource                                                                                                     |
-|-----------|--------------------------------------------------------------------------------------------------------------|
-| Hillel    |                                                                                                              |
-| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn) |
-| Kyle      |                                                                                                              |
+| Member    | Resource                                                                                                                              |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Hillel    |                                                                                                                                       |
+| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn)                          |
+| Kyle      | [Music Genre Classification System Introduction](https://www.youtube.com/watch?v=KW6585XMV3c&list=PLvz5lCwTgdXCd200WNDupTMo15DP9iryv) |
 
 ## Implementation
 

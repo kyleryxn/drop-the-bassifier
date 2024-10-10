@@ -405,3 +405,6 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,flask,pycharm+all,pycharm+iml
+
+*.css.map
+.DS_Store

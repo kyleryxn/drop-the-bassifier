@@ -1,6 +1,7 @@
 # Drop the Bassifier
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkyleryxn%2Fdrop-the-bassifier&count_bg=%231DB954&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ### Authors
 [Hillel Gersten](https://github.com/hillelg1), [Johnathan Sanchez](https://github.com/johnathansanchez16), 
@@ -19,18 +20,36 @@ track ID or its audio features) and classify it into a predefined set of genres 
 ## Datasets
 
 ### 1. [Classic Hits Dataset](https://www.kaggle.com/datasets/thebumpkin/10400-classic-hits-10-genres-1923-to-2023)
+*Provided by Kyle*
 
 - The dataset is a comprehensive collection of 15,150 classic hits from 3,083 artists, spanning a century of music 
 history from 1923 to 2023. This diverse dataset is divided into 19 distinct genres, showcasing the evolution of popular 
 music across different eras and styles. Each track in the dataset is enriched with Spotify audio features, offering 
 detailed insights into the acoustic properties, rhythm, tempo, and other musical characteristics.
 
+### 2. [Million Song Dataset](http://millionsongdataset.com/)
+*Provided by Hillel*
+
+- The Million Song Dataset is a freely-available collection of audio features and metadata for a million contemporary 
+popular music tracks. The dataset does not include any audio, only the derived features. Its purposes are to encourage 
+research on algorithms that scale to commercial sizes; to provide a reference dataset for evaluating research; as a 
+shortcut alternative to creating a large dataset with APIs.
+
+### 3. [GTZAN](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
+*Provided by Johnathan*
+
+- Music. Experts have been trying for a long time to understand sound and what differenciates one song from another. 
+How to visualize sound. What makes a tone different from another. This data hopefully can give the opportunity to do 
+just that.
 
 ## Challenges & Solutions
 
 | Challenge   | Solution    |
 |-------------|-------------|
-| Challenge 1 | Solution 1  |
+| Inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better  |
+| Finding patterns in different music | Converting audio files into spectrographs can give us frequency and amplitude over time|
+| Accuracy of our model | After developing the model we can use songs not included in the training set to train our model |
+ 
 
 ## Risks
 
@@ -68,11 +87,11 @@ in the predictions
 
 ## Resources
 
-| Member    | Resource |
-|-----------|----------|
-| Hillel    |          |
-| Johnathan |          |
-| Kyle      |          |
+| Member    | Resource                                                                                                     |
+|-----------|--------------------------------------------------------------------------------------------------------------|
+| Hillel    |                                                                                                              |
+| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn) |
+| Kyle      |                                                                                                              |
 
 ## Implementation
 
@@ -104,6 +123,13 @@ We would like to thank the following organizations and people:
 - For providing an excellent platform to access diverse datasets, including the datasets used in this project. 
 Kaggle's community-driven datasets and competitions were instrumental in shaping the data analysis and machine 
 learning aspects of this project.
+
+### 3. [Million Song Dataset](http://millionsongdataset.com/)
+*Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
+The Million Song Dataset. In Proceedings of the 12th International Society
+for Music Information Retrieval Conference (ISMIR 2011), 2011.*
+
+- For going to the trouble of providing a free, public dataset perfectly suited for our project's needs.
 
 ### 3. [Spotify](https://open.spotify.com/)
 - Without Spotify's wealth of music metadata, this project wouldn't have been able to explore genre classification with 

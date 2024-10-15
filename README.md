@@ -90,7 +90,8 @@ in the predictions
 | Member    | Resource                                                                                                                              |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Hillel    |                                                                                                                                       |
-| Johnathan | -[Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn) -[Rhythm Tips for Identifying Music Genres by Ear](https://www.musical-u.com/learn/rhythm-tips-for-identifying-music-genres-by-ear/#:~:text=There%20are%20some%20genres%20that,distinguishes%20liquid%20dubstep%20and%20darkstep.)|
+| Johnathan | -[Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn), 
+[Rhythm Tips for Identifying Music Genres by Ear](https://www.musical-u.com/learn/rhythm-tips-for-identifying-music-genres-by-ear/#:~:text=There%20are%20some%20genres%20that,distinguishes%20liquid%20dubstep%20and%20darkstep.)|
 | Kyle      | [Music Genre Classification System Introduction](https://www.youtube.com/watch?v=KW6585XMV3c&list=PLvz5lCwTgdXCd200WNDupTMo15DP9iryv) |
 
 ## Implementation

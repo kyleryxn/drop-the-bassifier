@@ -44,11 +44,11 @@ just that.
 
 ## Challenges & Solutions
 
-| Challenge   | Solution    |
-|-------------|-------------|
-| Inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better  |
-| Finding patterns in different music | Converting audio files into spectrographs can give us frequency and amplitude over time|
-| Accuracy of our model | After developing the model we can use songs not included in the training set to train our model |
+| Challenge                               | Solution                                                                                        |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------|
+| Inexperience in Machine learning models | Use of resouces to learn which existing models will suit this project better                    |
+| Finding patterns in different music     | Converting audio files into spectrographs can give us frequency and amplitude over time         |
+| Accuracy of our model                   | After developing the model we can use songs not included in the training set to train our model |
  
 
 ## Risks
@@ -87,11 +87,11 @@ in the predictions
 
 ## Resources
 
-| Member    | Resource                                                                                                     |
-|-----------|--------------------------------------------------------------------------------------------------------------|
-| Hillel    |                                                                                                              |
-| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn) |
-| Kyle      |                                                                                                              |
+| Member    | Resource                                                                                                                              |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Hillel    |                                                                                                                                       |
+| Johnathan | -[Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn), [Rhythm Tips for Identifying Music Genres by Ear](https://www.musical-u.com/learn/rhythm-tips-for-identifying-music-genres-by-ear/#:~:text=There%20are%20some%20genres%20that,distinguishes%20liquid%20dubstep%20and%20darkstep.)|
+| Kyle      | [Music Genre Classification System Introduction](https://www.youtube.com/watch?v=KW6585XMV3c&list=PLvz5lCwTgdXCd200WNDupTMo15DP9iryv) |
 
 ## Implementation
 
@@ -107,6 +107,34 @@ outliers
 
 ### 4. Model Testing
 - Test our models for accuracy
+
+## Tech Stack
+
+### Core Development
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/en/3.0.x/)
+
+### Exploratory Data Analysis (EDA) and Model Experimentation
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+
+### Web Development
+[![Jinja](https://img.shields.io/badge/Jinja-B41717?style=for-the-badge&logo=jinja&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+
+### APIs
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://developer.spotify.com/)
+
+### Version Control
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+
+### Team Collaboration
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://slack.com/)
+[![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com/)
 
 ## License
 

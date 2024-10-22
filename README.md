@@ -90,7 +90,7 @@ in the predictions
 | Member    | Resource                                                                                                                              |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Hillel    |                                                                                                                                       |
-| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn)                          |
+| Johnathan | -[Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn), [Rhythm Tips for Identifying Music Genres by Ear](https://www.musical-u.com/learn/rhythm-tips-for-identifying-music-genres-by-ear/#:~:text=There%20are%20some%20genres%20that,distinguishes%20liquid%20dubstep%20and%20darkstep.)|
 | Kyle      | [Music Genre Classification System Introduction](https://www.youtube.com/watch?v=KW6585XMV3c&list=PLvz5lCwTgdXCd200WNDupTMo15DP9iryv) |
 
 ## Implementation
@@ -120,6 +120,7 @@ outliers
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 
 ### Web Development
+[![Jinja](https://img.shields.io/badge/Jinja-B41717?style=for-the-badge&logo=jinja&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)

@@ -118,6 +118,7 @@ outliers
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+[![Librosa](https://img.shields.io/badge/Librosa-4D02A2?style=for-the-badge)](https://scikit-learn.org/stable/)
 
 ### Web Development
 [![Jinja](https://img.shields.io/badge/Jinja-B41717?style=for-the-badge&logo=jinja&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)

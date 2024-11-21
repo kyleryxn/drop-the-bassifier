@@ -87,11 +87,11 @@ in the predictions
 
 ## Resources
 
-| Member    | Resource                                                                                                                              |
-|-----------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Hillel    |                                                                                                                                       |
-| Johnathan | -[Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn), [Rhythm Tips for Identifying Music Genres by Ear](https://www.musical-u.com/learn/rhythm-tips-for-identifying-music-genres-by-ear/#:~:text=There%20are%20some%20genres%20that,distinguishes%20liquid%20dubstep%20and%20darkstep.)|
-| Kyle      | [Music Genre Classification System Introduction](https://www.youtube.com/watch?v=KW6585XMV3c&list=PLvz5lCwTgdXCd200WNDupTMo15DP9iryv) |
+| Member    | Resource                                                                                                                                                                                                                                                                                                                                        |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Hillel    |                                                                                                                                                                                                                                                                                                                                                 |
+| Johnathan | [Music Genre Classification using CNN](https://www.clairvoyant.ai/blog/music-genre-classification-using-cnn), [Rhythm Tips for Identifying Music Genres by Ear](https://www.musical-u.com/learn/rhythm-tips-for-identifying-music-genres-by-ear/#:~:text=There%20are%20some%20genres%20that,distinguishes%20liquid%20dubstep%20and%20darkstep.) |
+| Kyle      | [Music Genre Classification System Introduction](https://www.youtube.com/watch?v=KW6585XMV3c&list=PLvz5lCwTgdXCd200WNDupTMo15DP9iryv)                                                                                                                                                                                                           |
 
 ## Implementation
 
@@ -155,7 +155,3 @@ The Million Song Dataset. In Proceedings of the 12th International Society
 for Music Information Retrieval Conference (ISMIR 2011), 2011.*
 
 - For going to the trouble of providing a free, public dataset perfectly suited for our project's needs.
-
-### 3. [Spotify](https://open.spotify.com/)
-- Without Spotify's wealth of music metadata, this project wouldn't have been able to explore genre classification with 
-such depth and accuracy.

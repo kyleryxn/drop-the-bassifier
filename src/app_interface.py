@@ -11,9 +11,9 @@ class GenrePredictionApp:
 
     def run(self):
         st.title("Genre Prediction from Audio File")
-        st.write("Upload an audio file (mp3 or wav) to predict the genre based on its audio features.")
+        st.write("Upload an audio file (MP3 or WAV) to predict the genre based on its audio features.")
 
-        uploaded_file = st.file_uploader("Choose an audio file", type=["mp3", "wav"])
+        uploaded_file = st.file_uploader("Choose an audio file:", type=["mp3", "wav"])
 
         if uploaded_file is not None:
             temp_file_path = "temp_audio_file"

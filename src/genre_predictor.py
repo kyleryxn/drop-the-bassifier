@@ -14,4 +14,5 @@ class GenrePredictor:
         top_indices = np.argsort(genre_probabilities)[-3:][::-1]
         top_probabilities = genre_probabilities[top_indices]
         top_genres = self.model.classes_[top_indices]
+
         return list(zip(top_genres, top_probabilities))

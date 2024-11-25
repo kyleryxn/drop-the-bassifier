@@ -1,19 +1,17 @@
+from config import MODEL_PATH
 import joblib
 import numpy as np
 
+
 class GenrePredictor:
-    def __init__(self, model_path):
-        self.model = self._load_model(model_path)
+    """Handles prediction of genres based on extracted features."""
 
-    @staticmethod
-    def _load_model(model_path):
-        return joblib.load(model_path)
+    def __init__(self):
+        self.model = joblib.load(MODEL_PATH)
 
-    def predict_top_genres(self, features_df, top_n=3):
-        probabilities = self.model.predict_proba(features_df)[0]
-        top_indices = np.argsort(probabilities)[-top_n:][::-1]
-
-        class_labels = self.model.classes_
-        top_genres = [(class_labels[i], probabilities[i]) for i in top_indices]
-        return top_genres
-
+    def predict_genre(self, features_df):
+        genre_probabilities = self.model.predict_proba(features_df)[0]
+        top_indices = np.argsort(genre_probabilities)[-3:][::-1]
+        top_probabilities = genre_probabilities[top_indices]
+        top_genres = self.model.classes_[top_indices]
+        return list(zip(top_genres, top_probabilities))

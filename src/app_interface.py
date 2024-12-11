@@ -33,9 +33,9 @@ class GenrePredictionApp:
 
             # Define colors for the buttons (darkest to lightest shades of blue)
             button_colors = [
-                "background-color: #003f5c; color: white; border-radius: 10px; padding: 10px;",
-                "background-color: #2f4b7c; color: white; border-radius: 10px; padding: 10px;",
-                "background-color: #665191; color: white; border-radius: 10px; padding: 10px;"
+                "background-color: rgb(14 85 177); color: white; border-radius: 10px; padding: 10px;",
+                "background-color: rgb(32 78 137 / 75%); color: white; border-radius: 10px; padding: 10px;",
+                "background-color: rgb(36 64 101 / 50%); color: white; border-radius: 10px; padding: 10px;"
             ]
 
             # Function to format genre names

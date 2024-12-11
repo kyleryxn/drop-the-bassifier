@@ -30,5 +30,27 @@ class GenrePredictionApp:
 
             # Display results
             st.write("Top 3 Predicted Genres and their Probabilities:")
-            for genre, prob in top_genres:
-                st.write(f"{genre}: {prob * 100:.2f}%")
+
+            # Define colors for the buttons (darkest to lightest shades of blue)
+            button_colors = [
+                "background-color: #003f5c; color: white; border-radius: 10px; padding: 10px;",
+                "background-color: #2f4b7c; color: white; border-radius: 10px; padding: 10px;",
+                "background-color: #665191; color: white; border-radius: 10px; padding: 10px;"
+            ]
+
+            # Function to format genre names
+            def format_genre_name(song_genre):
+                return "-".join(part.title() for part in song_genre.split("-"))
+
+            cols = st.columns(len(top_genres))  # Create equal-width columns for each genre
+
+            for idx, (genre, prob) in enumerate(top_genres):
+                formatted_genre = format_genre_name(genre)
+                with cols[idx]:  # Place each styled button in its respective column
+                    # Use st.markdown to render styled buttons
+                    button_html = f"""
+                                <div style="{button_colors[idx]} text-align: center;">
+                                    {formatted_genre}: {prob * 100:.2f}%
+                                </div>
+                                """
+                    st.markdown(button_html, unsafe_allow_html=True)

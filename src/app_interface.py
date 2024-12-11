@@ -1,0 +1,56 @@
+import streamlit as st
+from feature_extractor import AudioFeatureExtractor
+from genre_predictor import GenrePredictor
+
+
+class GenrePredictionApp:
+    """Handles the Streamlit app interface."""
+
+    def __init__(self):
+        self.genre_predictor = GenrePredictor()
+
+    def run(self):
+        st.title("Genre Prediction from Audio File")
+        st.write("Upload an audio file (MP3 or WAV) to predict the genre based on its audio features.")
+
+        uploaded_file = st.file_uploader("Choose an audio file:", type=["mp3", "wav"])
+
+        if uploaded_file is not None:
+            temp_file_path = "temp_audio_file"
+            st.audio(uploaded_file, format="audio/wav")
+            with open(temp_file_path, "wb") as f:
+                f.write(uploaded_file.getbuffer())
+
+            # Extract features
+            feature_extractor = AudioFeatureExtractor(temp_file_path)
+            features_df = feature_extractor.extract_features()
+
+            # Predict genres
+            top_genres = self.genre_predictor.predict_genre(features_df)
+
+            # Display results
+            st.write("Top 3 Predicted Genres and their Probabilities:")
+
+            # Define colors for the buttons (darkest to lightest shades of blue)
+            button_colors = [
+                "background-color: #003f5c; color: white; border-radius: 10px; padding: 10px;",
+                "background-color: #2f4b7c; color: white; border-radius: 10px; padding: 10px;",
+                "background-color: #665191; color: white; border-radius: 10px; padding: 10px;"
+            ]
+
+            # Function to format genre names
+            def format_genre_name(song_genre):
+                return "-".join(part.title() for part in song_genre.split("-"))
+
+            cols = st.columns(len(top_genres))  # Create equal-width columns for each genre
+
+            for idx, (genre, prob) in enumerate(top_genres):
+                formatted_genre = format_genre_name(genre)
+                with cols[idx]:  # Place each styled button in its respective column
+                    # Use st.markdown to render styled buttons
+                    button_html = f"""
+                                <div style="{button_colors[idx]} text-align: center;">
+                                    {formatted_genre}: {prob * 100:.2f}%
+                                </div>
+                                """
+                    st.markdown(button_html, unsafe_allow_html=True)

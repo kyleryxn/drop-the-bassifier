@@ -3,29 +3,30 @@ from feature_extractor import AudioFeatureExtractor
 from genre_predictor import GenrePredictor
 
 
+def build_genre_map():
+    """Dynamically builds a genre map with default formatting and manual overrides."""
+    # Example set of genres from your dataset or model predictions
+    all_genres = ["hiphop", "classic-rock", "electronic-dance", "pop", "jazz"]
+
+    # Default formatter for genres
+    def format_genre_name(song_genre):
+        return "-".join(part.title() for part in song_genre.split("-"))
+
+    # Build the map with default formatting
+    genre_map = {genre: format_genre_name(genre) for genre in all_genres}
+
+    # Manually override specific genres
+    genre_map["hiphop"] = "Hip-Hop"
+
+    return genre_map
+
+
 class GenrePredictionApp:
     """Handles the Streamlit app interface."""
 
     def __init__(self):
         self.genre_predictor = GenrePredictor()
-        self.genre_map = self.build_genre_map()
-
-    def build_genre_map(self):
-        """Dynamically builds a genre map with default formatting and manual overrides."""
-        # Example set of genres from your dataset or model predictions
-        all_genres = ["hiphop", "classic-rock", "electronic-dance", "pop", "jazz"]
-
-        # Default formatter for genres
-        def format_genre_name(song_genre):
-            return "-".join(part.title() for part in song_genre.split("-"))
-
-        # Build the map with default formatting
-        genre_map = {genre: format_genre_name(genre) for genre in all_genres}
-
-        # Manually override specific genres
-        genre_map["hiphop"] = "Hip-Hop"
-
-        return genre_map
+        self.genre_map = build_genre_map()
 
     def run(self):
         st.title("Genre Prediction from Audio File")

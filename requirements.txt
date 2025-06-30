@@ -5,4 +5,4 @@ numpy~=2.0.2
 pandas~=2.3.0
 Requests==2.32.4
 setuptools==80.9.0
-streamlit==1.46.0
+streamlit==1.46.1
